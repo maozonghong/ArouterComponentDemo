@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geespace.carmodule" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="@string/car_app_name"
+        android:name="com.geespace.commonlib.AbsApplication"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+
+        <activity android:name=".CarListActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+
+        </activity>
+
+    </application>
+</manifest>
